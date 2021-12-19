@@ -311,7 +311,7 @@ var audioPlayer = function() {
    **/
   var _setTrackTitle = function(currentTrack, playListRows) {
     var trackTitleBox = document.querySelector(".player .info-box .track-info-box .track-title-text");
-    var trackTitle = playListRows[currentTrack - 1].children[2].outerText;
+    var trackTitle = playListRows[currentTrack - 1].children[2].innerText;
 
     trackTitleBox.innerHTML = null;
 
