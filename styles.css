@@ -17,12 +17,12 @@ body {
 }
 body .container {
   font-family: arial, helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 2em;
   margin: 0 auto;
-  width: 500px;
+  width: 700px;
 }
 body .container .player {
-  height: 60px;
+  height: 120px;
   margin: 0;
   position: relative;
   width: 400px;
@@ -32,18 +32,18 @@ body .container .player {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Medium devices (desktops, 992px and up) */
   body .container .player {
-    width: 470px;
+    width: 670px;
   }
 }
 @media (min-width: 992px) and (max-width: 1100px) {
   /* Large devices (large desktops, 1200px and up) */
   body .container .player {
-    width: 470px;
+    width: 670px;
   }
 }
 @media (min-width: 1200px) {
   body .container .player {
-    width: 470px;
+    width: 670px;
   }
 }
 body .container .player .large-toggle-btn {
@@ -51,14 +51,14 @@ body .container .player .large-toggle-btn {
   border-radius: 2px;
   float: left;
   font-size: 1.5em;
-  height: 50px;
+  height: 100px;
   margin: 0 10px 0 0;
   overflow: hidden;
   padding: 5px 0 0 0;
   position: relative;
   text-align: center;
   vertical-align: bottom;
-  width: 54px;
+  width: 108px;
 }
 body .container .player .large-toggle-btn .large-play-btn {
   cursor: pointer;
@@ -81,14 +81,14 @@ body .container .player .large-toggle-btn .large-pause-btn:before {
   font: 1.5em/1.75 "FontAwesome";
 }
 body .container .player .info-box {
-  bottom: 10px;
-  left: 65px;
+  bottom: 20px;
+  left: 130px;
   position: absolute;
   top: 15px;
 }
 body .container .player .info-box .track-info-box {
   float: left;
-  font-size: 12px;
+  font-size: 24px;
   margin: 0 0 6px 0;
   visibility: hidden;
   width: 400px;
@@ -100,7 +100,7 @@ body .container .player .info-box .track-info-box .track-title-text {
 body .container .player .info-box .track-info-box .audio-time {
   display: inline-block;
   padding: 0 0 0 5px;
-  width: 80px;
+  width: 160px;
 }
 body .container .player .info-box .track-info-box:before, body .container .player .info-box .track-info-box:after {
   content: " ";
@@ -148,7 +148,7 @@ body .container .player .progress-box .progress-cell .progress .progress-indicat
 }
 body .container .player .controls-box {
   bottom: 10px;
-  left: 350px;
+  left: 500px;
   position: absolute;
 }
 body .container .player .controls-box .previous-track-btn {
@@ -157,7 +157,7 @@ body .container .player .controls-box .previous-track-btn {
 }
 body .container .player .controls-box .previous-track-btn:before {
   content: "\f049";
-  font: 1em "FontAwesome";
+  font: 2em "FontAwesome";
 }
 body .container .player .controls-box .next-track-btn {
   cursor: pointer;
@@ -165,7 +165,7 @@ body .container .player .controls-box .next-track-btn {
 }
 body .container .player .controls-box .next-track-btn:before {
   content: "\f050";
-  font: 1em "FontAwesome";
+  font: 2em "FontAwesome";
 }
 body .container .player:before, body .container .player:after {
   content: " ";
@@ -201,13 +201,13 @@ body .container .play-list .play-list-row .small-toggle-btn {
   border-radius: 2px;
   cursor: pointer;
   display: inline-block;
-  height: 20px;
+  height: 40px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
   text-align: center;
   vertical-align: middle;
-  width: 20px;
+  width: 40px;
 }
 body .container .play-list .play-list-row .small-toggle-btn .small-play-btn {
   display: inline-block;
